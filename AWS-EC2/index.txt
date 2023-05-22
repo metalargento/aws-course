@@ -12,7 +12,7 @@ h1 {
 </head>
 <body>
 
-<h1>This Amazon EC2 instance is located in Availability Zone:</h1>
+<h1>Esta instancia de Amazon EC2 se encuentra en la zona de disponibilidad:</h1>
   <h1>INSTANCEID</h1>
 
 </body>
