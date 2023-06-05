@@ -1,6 +1,6 @@
-Description:  This template deploys a VPC, with a pair of public and private subnets spread
-  across two Availability Zones. It deploys an internet gateway, with a default
-  route on the public subnets.
+Description:  Esta plantilla despliega una VPC, con un par de subredes públicas y privadas repartidas en
+dos zonas de disponibilidad. Implementa una puerta de enlace de Internet, con un valor predeterminado
+de ruta en las subredes públicas..
 
 Parameters:
   EnvironmentName:
