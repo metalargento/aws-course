@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
-    Description: Create Amazon S3 bucket using CloudFormation
+    Description: Crear Amazon S3 bucket usando CloudFormation
     Properties:
       BucketName: YOUR-BUCKET-NAME
       BucketEncryption: 
@@ -11,5 +11,5 @@ Resources:
               SSEAlgorithm: AES256
 Outputs:
   S3Bucket:
-    Description: S3 bucket created from a CloudFormation template
+    Description: S3 bucket creado desde una plantilla de CloudFormation
     Value: !Ref S3Bucket
